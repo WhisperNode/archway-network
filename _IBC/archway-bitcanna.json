@@ -1,0 +1,73 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain_1": {
+    "chain_name": "archway",
+    "client_id": "07-tendermint-37",
+    "connection_id": "connection-40"
+  },
+  "chain_2": {
+    "chain_name": "bitcanna",
+    "client_id": "07-tendermint-83",
+    "connection_id": "connection-74"
+  },
+  "channels": [
+    {
+      "chain_1": {
+        "channel_id": "channel-35",
+        "port_id": "transfer"
+      },
+      "chain_2": {
+        "channel_id": "channel-50",
+        "port_id": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "chain_1": {
+        "address": "archway1twmgaeug7ymjq8c53ttstpl7rny43q8zsragds"
+      },
+      "chain_2": {
+        "address": "bcna1twmgaeug7ymjq8c53ttstpl7rny43q8zlc3d04"
+      },
+      "memo": "Relayed by kjnodes",
+      "name": "kjnodes",
+      "discord": {
+        "handle": "kjnodes",
+        "id": "403199803330134018"
+      }
+    },
+    {
+      "chain_1": {
+        "address": "archway1wmzvyml04pzza6ddr0tvxga64q5q55z0mrg5gx"
+      },
+      "chain_2": {
+        "address": "bcna1q9rerlkmrd9y9yty4ch3pd005u4w6gn75deskf"
+      },
+      "memo": "Relayed by L0vd.com",
+      "name": "L0vd.com",
+      "discord": {
+        "handle": "jango_l0vd",
+        "id": "651866634444603393"
+      }
+    }, {
+      "chain_1": {
+        "address": "archway1a7zq9n09u5g5n4m0ht5fujv0wlddm7hgju69dq"
+      },
+      "chain_2": {
+        "address": "bcna1a7zq9n09u5g5n4m0ht5fujv0wlddm7hga8kq09"
+      },
+      "memo": "Relayed by KitKat",
+      "name": "KitKat",
+      "discord": {
+        "handle": "max_kitkat",
+        "id": "130192092247883776"
+      }
+    }
+  ]
+}

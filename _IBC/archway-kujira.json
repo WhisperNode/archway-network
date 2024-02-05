@@ -1,0 +1,102 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain_1": {
+    "chain_name": "archway",
+    "client_id": "07-tendermint-12",
+    "connection_id": "connection-12"
+  },
+  "chain_2": {
+    "chain_name": "kujira",
+    "client_id": "07-tendermint-144",
+    "connection_id": "connection-110"
+  },
+  "channels": [
+    {
+      "chain_1": {
+        "channel_id": "channel-11",
+        "port_id": "transfer"
+      },
+      "chain_2": {
+        "channel_id": "channel-99",
+        "port_id": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "chain_1": {
+        "address": "archway1twmgaeug7ymjq8c53ttstpl7rny43q8zsragds"
+      },
+      "chain_2": {
+        "address": "kujira1twmgaeug7ymjq8c53ttstpl7rny43q8z5qr52d"
+      },
+      "memo": "Relayed by kjnodes",
+      "name": "kjnodes",
+      "discord": {
+        "handle": "kjnodes",
+        "id": "403199803330134018"
+      }
+    },
+    {
+      "chain_1": {
+        "address": "archway16l5ls4ajah6hethh374tpgn42r5q4sqeuw8udj"
+      },
+      "chain_2": {
+        "address": "kujira1rkn5p4y9yy2tsqwpfdqd47qy9v792jejcfq3jt"
+      },
+      "memo": "by AM Solutions | https://www.theamsolutions.info",
+      "name": "AM Solutions",
+      "discord": {
+        "handle": "amsolutions",
+        "id": "852503078128189440"
+      }
+    },
+    {
+      "chain_1": {
+        "address": "archway1l267dmlmprhu4p5aqslf50f495vjqlg3glkqcu"
+      },
+      "chain_2": {
+        "address": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+      },
+      "memo": "Relayed for you by Crosnest.",
+      "name": "Crosnest",
+      "discord": {
+        "handle": "galadrin_crosnest",
+        "id": "339485547300913156"
+      }
+    },
+    {
+      "chain_1": {
+        "address": "archway1jqz2205er0d8657ugll98c462cyplkcq2x73ju"
+      },
+      "chain_2": {
+        "address": "kujira1jqz2205er0d8657ugll98c462cyplkcqw9qd4p"
+      },
+      "memo": "Relayed by Huginn | https://huginn.tech ",
+      "name": "Huginn",
+      "discord": {
+        "handle": "gökay#5690",
+        "id": "259764661602222091"
+      }
+    },
+    {
+      "chain_1": {
+        "address": "archway12qkshheaw2mrpr8asfj6jr9q2e5ms7qt6z0z6p"
+      },
+      "chain_2": {
+        "address": "kujira1hf80p6qv0uc89d0wxn6p9ucy0kdd02k3q448rg"
+      },
+      "memo": "Relayed by Smart Stake",
+      "name": "Smart Stake",
+      "discord": {
+        "handle": "bigb4ever",
+        "id": "400514913505640451"
+      }
+    }
+  ]
+}
